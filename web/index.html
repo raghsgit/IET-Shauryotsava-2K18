@@ -286,20 +286,21 @@ Expecting a footfall in thousands, this version of the Shaurya stands up to its 
 					<div id="cycler">   
 						<div class="wthree-news-grid">
 							<div class="wthree-news-left">
-								<h4>03<span>Jan 2018</span></h4>
+								<h4 class="datehead">03<span>Jan 2018</span></h4>
 							</div>
 							<div class="date-text">
-								Registration Starts Soon!
+                                <h2>Registration Starts Soon!</h2>
 								<p class="news1">We shall start our registration process for Shauryotsava 2K18 from 20 January. Come and witness the greatest sports fest of the city and participate to make your college proud. Register in the fest and participate in the events you feel like. </p>
    							</div>
 							<div class="clearfix"> </div>
 						</div>
 						<div class="wthree-news-grid">
 							<div class="wthree-news-left">
-								<h4>07 <span>Jan 2018</span></h4>
+								<h4 class="datehead">07 <span>Jan 2018</span></h4>
 							</div>
 							<div class="date-text">
-								Event List Updated
+                                <h2>
+                                Event List Updated</h2>
 								<p class="news1">Event list has been updated with even more events like Throw-Ball, Hand-Ball added   to the list this time. Register now to participate in these awesome events and win yourself amazing prizes and awesome memories.</p>
 							</div>
 							<div class="clearfix"> </div>
@@ -354,9 +355,9 @@ Expecting a footfall in thousands, this version of the Shaurya stands up to its 
 					</script>
 					<script>
 						function cycle($item, $cycler){
-							setTimeout(cycle, 2000, $item.next(), $cycler);
+							setTimeout(cycle, 7000, $item.next(), $cycler);
 												
-							$item.slideUp(1000,function(){
+							$item.slideUp(6000,function(){
 								$item.appendTo($cycler).show();        
 							});
 						}
