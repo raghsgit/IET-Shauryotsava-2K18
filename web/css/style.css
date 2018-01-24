@@ -1360,17 +1360,27 @@ src: url('../fonts/Draconian.ttf')format('truetype');
 {
     
     background-image: url(../images/news.jpeg) !important;
-    background-size: contain;
+    background-size: cover;
 }
 .date-text p
 {
     color: #000000 !important;
+    font-size: 1.28em !important;
 }
-.wthree-news-left h4
+.datehead 
 {
-    color: #000000 !important;
+    color: #000 !important;
+   font-weight: bold !important;
 }
-.date-text
+.datehead span
 {
-    font-size: 1.27em !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    font-size:0.4em !important;
+     
+}
+.date-text h2
+{
+    font-weight: 600 !important;
+    font-size: 1.5em !important;
 }
