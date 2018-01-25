@@ -1360,7 +1360,7 @@ src: url('../fonts/Draconian.ttf')format('truetype');
 {
     
     background-image: url(../images/news.jpeg) !important;
-    background-size: cover;
+    background-size: cover !important;
 }
 .date-text p
 {
